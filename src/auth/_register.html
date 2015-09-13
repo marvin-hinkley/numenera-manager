@@ -1,0 +1,10 @@
+<div id="register-steps">
+    <a ui-sref-active="active" ui-sref=".profile"><span>1</span> Profile</a>
+    <a ui-sref-active="active" ui-sref=".characters"><span>2</span> Characters</a>
+    <a ui-sref-active="active" ui-sref=".password"><span>3</span> Password</a>
+</div>
+<form name="registerForm" ng-submit="register()">
+    <div ui-view></div>
+</form>
+<br>USER:<br>
+<pre>{{user}}</pre>

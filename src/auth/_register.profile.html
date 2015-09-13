@@ -1,0 +1,38 @@
+<label for="username">username</label>
+<input 
+       type="text" 
+       name="username" 
+       ng-model="user.username"
+       required>
+<div ng-messages="registerForm.username.$error">
+    <p ng-message="required">A username is required.</p>
+</div>
+<label for="username">first name</label>
+<input 
+       type="text" 
+       name="firstName" 
+       ng-model="user.firstName"
+       required>
+<div ng-messages="registerForm.firstName.$error">
+    <p ng-message="required">Your first name is required.</p>
+</div>
+<label for="username">last name</label>
+<input 
+       type="text" 
+       name="lastName" 
+       ng-model="user.lastName"
+       required>
+<div ng-messages="registerForm.lastName.$error">
+    <p ng-message="required">Your last name is required.</p>
+</div>
+<label for="username">email</label>
+<input 
+       type="text" 
+       name="email" 
+       ng-model="user.email"
+       required>
+<div ng-messages="registerForm.email.$error">
+    <p ng-message="required">Your email address is required.</p>
+</div>
+<a ui-sref="home">cancel</a>
+<a ui-sref="register.characters">next</a>

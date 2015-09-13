@@ -1,0 +1,52 @@
+@import 'mixins';
+@import 'posts/posts';
+@import 'tasks/tasks';
+@import 'users/users';
+
+//---------------------------Global-------------------------------------
+* {
+    margin: 0;
+    padding: 0;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+html, body {
+    background-color: sweet-color('primary');
+    height: 100%;
+}
+#flex-container {
+    @include flexbox(column);
+    height: 100%;
+}
+header {
+    @include flexbox(row);
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+nav {
+    @include flexbox(row);
+    justify-content: space-between;
+    background-color: sweet-color('secondary');
+    padding: 0 1em;
+    div {
+        display: block;
+    }
+    a {
+        display: block;
+        text-decoration: none;
+        color: sweet-color('primary');
+        padding: 1em 0;
+        &:hover {
+            color: sweet-color('primary', 'dark');
+        }
+    }
+}
+#content-container {
+    flex-grow: 1;
+    @include flexbox(row);
+}
+footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+}

@@ -1,0 +1,32 @@
+//------------------------Fonts----------------------------------------------
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+//------------------------Variables-----------------------------------
+/* colors */
+$error: #CC584E;
+/* fonts */
+$open-sans-condensed: 'Open Sans Condensed', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
+/* settings */
+$font-primary: $open-sans-condensed;
+$font-secondary: $open-sans;
+
+//------------------------Themes-----------------------------------
+$primary-colors: (
+    'primary': (
+        'base': #f2f2f2,
+        'light': #d9534f,
+        'dark': #d1d1d1
+    ),
+    'accent': (
+        'base': #d98328,
+        'light': #dd8f3d,
+        'dark': #c57623
+    ),
+    'secondary': (
+        'base': #333333,
+        'light': #7b1a2d,
+        'dark': #51111e
+    )
+);
