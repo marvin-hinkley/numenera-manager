@@ -1,0 +1,13 @@
+<div id="character-steps">
+    <a ui-sref-active="active" ui-sref=".profile"><span>1</span>Profile</a>
+    <a ui-sref-active="active" ui-sref=".descriptor"><span>2</span>Descriptor</a>
+    <a ui-sref-active="active" ui-sref=".type"><span>3</span>Type</a>
+    <a ui-sref-active="active" ui-sref=".focus"><span>3</span>Focus</a>
+    <a ui-sref-active="active" ui-sref=".equipment"><span>3</span>Equipment</a>
+</div>
+<p>{{instructions}}</p>
+<form name="characterForm" ng-submit="register()">
+    <div ui-view></div>
+</form>
+<br>CHARACTER:<br>
+<pre>{{character}}</pre>

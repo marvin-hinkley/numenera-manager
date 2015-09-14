@@ -1,7 +1,6 @@
 @import 'mixins';
-@import 'posts/posts';
-@import 'tasks/tasks';
-@import 'users/users';
+@import 'character/character';
+@import 'auth/auth';
 
 //---------------------------Global-------------------------------------
 * {

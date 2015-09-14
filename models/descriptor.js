@@ -8,7 +8,7 @@ var DescriptorSchema   = new Schema({
     book_reference: String,
     note: String,
     items: [Schema.Types.Mixed],
-    shin: Integer,
+    shin: Number,
     starting_link: [String],
     abilities: {
         automatic: [Schema.Types.ObjectId],
@@ -19,18 +19,18 @@ var DescriptorSchema   = new Schema({
         optional: [Schema.Types.ObjectId]
     },
     modifiers: {
-        armor: Integer,
+        armor: Number,
         pools: {
-            might: Integer,
-            speed: Integer,
-            intellect: Integer,
-            free: Integer,
+            might: Number,
+            speed: Number,
+            intellect: Number,
+            free: Number,
         },
         edge: {
-            might: Integer,
-            speed: Integer,
-            intellect: Integer,
-            free: Integer
+            might: Number,
+            speed: Number,
+            intellect: Number,
+            free: Number
         }
     }
 });

@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/* colors */
+/* fonts */
+/* settings */
+/* line 6, ../../src/app.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../../src/app.scss */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* line 13, ../../src/app.scss */
+html, body {
+  background-color: #f2f2f2;
+  height: 100%;
+}
+
+/* line 17, ../../src/app.scss */
+#flex-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* line 21, ../../src/app.scss */
+header {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+/* line 26, ../../src/app.scss */
+nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #333333;
+  padding: 0 1em;
+}
+/* line 31, ../../src/app.scss */
+nav div {
+  display: block;
+}
+/* line 34, ../../src/app.scss */
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #f2f2f2;
+  padding: 1em 0;
+}
+/* line 39, ../../src/app.scss */
+nav a:hover {
+  color: #d1d1d1;
+}
+
+/* line 44, ../../src/app.scss */
+#content-container {
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 48, ../../src/app.scss */
+footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+/*# sourceMappingURL=app.css.map */

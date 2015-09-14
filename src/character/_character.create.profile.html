@@ -1,0 +1,30 @@
+<label for="name">name</label>
+<input 
+       type="text" 
+       name="name" 
+       ng-model="character.name"
+       required>
+<div ng-messages="characterForm.name.$error">
+    <p ng-message="required">A name is required.</p>
+</div>
+<label for="description">description</label>
+<input 
+       type="text" 
+       name="description" 
+       ng-model="character.description"
+       required>
+<div ng-messages="characterForm.description.$error">
+    <p ng-message="required">Character description is required.</p>
+</div>
+<label for="age">age</label>
+<input 
+       type="text" 
+       name="age" 
+       ng-model="character.age"
+       required>
+<div ng-messages="characterForm.age.$error">
+    <p ng-message="required">Character age is required.</p>
+</div>
+
+<a ui-sref="home">cancel</a>
+<a ui-sref="createCharacter.descriptor">next</a>

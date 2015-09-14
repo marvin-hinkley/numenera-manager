@@ -1,0 +1,8 @@
+<div id="descriptor-list">
+    <div class="descriptor" ng-repeat="descriptor in descriptors">
+        <span>{{descriptor.name}}</span><span>{{descriptor.book_reference}}</span>
+    </div>
+</div>
+
+<a ui-sref="createCharacter.profile">back</a>
+<a ui-sref="createCharacter.type">next</a>

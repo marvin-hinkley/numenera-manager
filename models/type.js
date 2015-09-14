@@ -6,20 +6,20 @@ var TypeSchema   = new Schema({
     name: String,
     description: String,
     book_reference: String,
-    shin: Integer,
+    shin: Number,
     items: [Schema.Types.Mixed],
-    cypher_slots: Integer,
+    cypher_slots: Number,
     pools: {
-        might: Integer,
-        speed: Integer,
-        intellect: Integer,
-        free: Integer
+        might: Number,
+        speed: Number,
+        intellect: Number,
+        free: Number
     },
     edge: {
-        might: Integer,
-        speed: Integer,
-        intellect: Integer,
-        free: Integer
+        might: Number,
+        speed: Number,
+        intellect: Number,
+        free: Number
     },
     abilities: {
         automatic: [Schema.Types.ObjectId],

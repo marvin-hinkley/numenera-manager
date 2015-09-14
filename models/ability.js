@@ -8,23 +8,23 @@ var AbilitySchema   = new Schema({
     book_reference: String,
     note: String,
     cost: {
-        might: Integer,
-        speed: Integer,
-        intellect: Integer,
+        might: Number,
+        speed: Number,
+        intellect: Number,
     },
     modifiers: {
-        armor: Integer,
+        armor: Number,
         pools: {
-            might: Integer,
-            speed: Integer,
-            intellect: Integer,
-            free: Integer,
+            might: Number,
+            speed: Number,
+            intellect: Number,
+            free: Number,
         },
         edge: {
-            might: Integer,
-            speed: Integer,
-            intellect: Integer,
-            free: Integer
+            might: Number,
+            speed: Number,
+            intellect: Number,
+            free: Number
         }
     }
 });
