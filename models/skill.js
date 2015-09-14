@@ -6,7 +6,7 @@ var SkillSchema   = new Schema({
     name: String,
     description: String,
     book_reference: String,
-    note: String,
+    note: String
 });
 
 module.exports = mongoose.model('Skill', SkillSchema);
