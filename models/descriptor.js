@@ -6,7 +6,6 @@ var DescriptorSchema   = new Schema({
     name: String,
     description: String,
     book_reference: String,
-    note: String,
     items: [Schema.Types.Mixed],
     shin: Number,
     starting_link: [String],

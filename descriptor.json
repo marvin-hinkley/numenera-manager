@@ -1,0 +1,708 @@
+{
+    "name": "Clumsy",
+    "SPD": -2,
+    "MHT": 2,
+    "ABIL": [
+        "Inelegant: Trained in pleasant social interactions when lighthearted/self-deprecating",
+        "Dumb Luck: GM gets free intrusions related to clumsiness. 50% of the time, this is beneficial to you."
+    ],
+    "SKILLS": [
+        "Trained in tasks involving breaking things.",
+        "Inability at all tasks involving grace, balance, hand-eye coordination"
+    ],
+    "book_reference": "Numenera Character Options, pg. 19"
+},
+{
+    "name": "Craven"
+    "SPD": 2,
+    "SKILLS": [
+        "Trained in stealth tasks.",
+        "Trained in running actions.",
+        "Trained in any action made to escape danger, flee or avoid trouble.",
+        "Inability at initiative",
+        "Inability at all tasks which are potentially dangerous when performed alone"
+    ],
+    "EQUIP": ["Additional oddity as a good luck charm."],
+    "book_reference": "Numenera Character Options, pg. 20"
+},
+{
+    "name": "Cruel",
+    "INT": 2,
+    "ABIL": [
+        "Cruelty: When inflicting damage, can inflict 2 points less to decrease difficulty to attack target next round"
+    ],
+    "SKILLS": [
+        "Trained in all tasks relating to deception, intimidation and persuasion when interacting with characters experiencing pain.",
+        "Inability at all tasks involving discerning motives, feelings or disposition."
+    ],
+    "EQUIP": [
+        "Valuable memento from last victim worth 10 shins"
+    ],
+    "book_reference": "Numenera Character Options, pg. 20"
+},
+{
+    "name": "Dishonorable",
+    "SPD": 4,
+    "ABIL": [
+        "Just Desserts: You can not receive XP from another player for their GM intrusion."
+    ],
+    "SKILLS": [
+        "Trained in deception",
+        "Trained in stealth",
+        "Trained in intimidation",
+        "Inability at pleasant social interactions"
+    ],
+    "book_reference": "Numenera Character Options, pg. 20"
+},
+{
+    "name": "Doomed",
+    "SPD": 2,
+    "SKILLS": [
+        "Trained in perception tasks",
+        "Trained in Speed defense",
+        "Trained in sanity-related intellect defence"
+    ],
+    "ABIL": [
+        "Doom: Every other gm intrusion against you can not be refused and rewards no XP."
+    ],
+    "book_reference": "Numenera Character Options, pg. 21"
+},
+{
+    "name": "Driven",
+    "MHT": 2,
+    "SKILLS": [
+        "Trained in Intellect defense",
+        "Each day, trained in a skill that you believe will help you reach your goal.",
+        "Inability at all perception tasks."
+    ],
+    "book_reference": "Numenera Character Options, pg. 21"
+},
+{
+    "name": "Empathic",
+    "INT": 4,
+    "SKILLS": [
+        "Trained in all tasks involving sensing other emotions, discerning dispositions or getting hunchs about people.",
+        "Trained in all tasks involving social interaction.",
+        "Inability at Intellect defence"
+    ],
+    "book_reference": "Numenera Character Options, pg. 22"
+},
+{
+    "name": "Exiled",
+    "MHT": 2,
+    "ABIL": [
+        "Loner: You gain no assistance benefits from other characters"
+    ],
+    "SKILLS": [
+        "Trained in all tasks involving sneaking",
+        "Trained in all tasks involving foraging, hunting and finding safe places to hide or rest",
+        "Inability at all social interaction tasks"
+    ],
+    "book_reference": "Numenera Character Options, pg. 22"
+},
+{
+    "name": "Foolish",
+    "INT": -4,
+    "ABIL": [
+        "Carefree: Roll twice whenever rolling for a task and keep the highest roll.",
+        "Intellect Weakness: all intellect point costs are 1 point more expensive"
+    ],
+    "SKILLS": [
+        "Inability at intellect defense",
+        "Inability at tasks involving seeing through deception, illusions or noticing traps"
+    ],
+    "book_reference": "Numenera Character Options, pg. 23"
+},
+{
+    "name": "Guarded",
+    "INT": 2,
+    "SKILLS": [
+        "Trained at intellect defense",
+        "Trained at all tasks involving discerning truth, piercing disguises and recognising falsehoods and deception",
+        "Inability at deception or persuasion tasks"
+    ],
+    "book_reference": "Numenera Character Options, pg. 23"
+},
+{
+    "name": "Hardy",
+    "MHT": 4,
+    "ABIL": [
+        "Fast Healer: Recovery rolls take half the time",
+        "Unstoppable: While impaired, at as hale. While debilitated, act as impaired",
+        "Ponderous: When using effort on Speed tasks, cost is increased by one Speed point"
+    ],
+    "SKILLS": [
+        "Trained at Might defense"
+    ],
+    "book_reference": "Numenera Character Options, pg. 24"
+},
+{
+    "name": "Hideous",
+    "ADD": 4,
+    "SKILLS": [
+        "Trained in intimidation and fear-based interactions",
+        "Trained in disgiuse and stealth",
+        "Inability at pleasant social intercations"
+    ],
+    "book_reference": "Numenera Character Options, pg. 24"
+},
+{
+    "name": "Honorable",
+    "MHT": 2,
+    "SKILLS": [
+        "Trained in pleasant social interactions",
+        "Trained at discerning motives or seeing through lies"
+    ],
+    "book_reference": "Numenera Character Options, pg. 25"
+},
+{
+    "name": "Impulsive",
+    "SPD": 2,
+    "SKILLS": [
+        "Trained in initiative",
+        "Trained in speed defense",
+        "Inability at patience, willpower or discipline tasks"
+    ],
+    "book_reference": "Numenera Character Options, pg. 25"
+},
+{
+    "name": "Inquisitive",
+    "INT": 4,
+    "SKILLS": [
+        "Trained learning new things (e.g. talking to locals for info, reading books for lore)",
+        "Trained in geography and history",
+        "Inability at hearing or noticing danger around you"
+    ],
+    "book_reference": "Numenera Character Options, pg. 25"
+},
+{
+    "name": "Mad",
+    "INT": 4,
+    "ABIL": [
+        "Fits of Insight: GM grants you knowledge or insight with no clear explanation at least once per-session",
+        "Erratic Behaviour: When subjected to great stress or making a major numenera discovery, the GM gets a free intrusion against you"
+    ],
+    "SKILLS": [
+        "Trained in numenera knowledge",
+        "Inability at defending against mental attacks"
+    ],
+    "book_reference": "Numenera Character Options, pg. 26"
+},
+{
+    "name": "Naive",
+    "ABIL": [
+        "Fresh: +1 to recovery rolls",
+        "Incorruptible: Trained in Intellect defense and all tasks involving resisting temptation"
+    ],
+    "SKILLS": [
+        "Trained in perception tasks",
+        "Inability at seeing through deceptions or determining secret motives"
+    ],
+    "book_reference": "Numenera Character Options, pg. 27"
+},
+"Noble": {
+    "ABIL": [
+        "Respect: Interactions with non-nobles is one step easier 75% of the time, one-step harder 25% of the time",
+        "Retainer/Mount: Yu have a level 2 servant or mount. Work with the GM to determine details",
+        "Contact: you have a contact among the nobility that helps you and treats you well. Work with the GM to determine details."
+    ],
+    "SKILLS": [
+        "Trained in etiquette and interacting with nobility"
+    ],
+    "book_reference": "Numenera Character Options, pg. 27"
+},
+"Perceptive": {
+    "INT": 2,
+    "SKILLS": [
+        "Trained in any task that involves identifying objects or recalling minor details or trivia",
+        "Trained in finding or noticing small details",
+        "Trained at intimidation",
+        "Inability at positive social interactions"
+    ],
+    "EQUIP": ["Bag of light tools"],
+    "book_reference": "Numenera Character Options, pg. 28"
+},
+"Resilient": {
+    "INT": 2,
+    "MHT": 2,
+    "ABIL": [
+        "Recover: You get an additional recovery roll per day which takes one action to perform"
+    ],
+    "SKILLS": [
+        "Trained in Might defense",
+        "Trained in Intellect defense",
+        "Inability at tasks involving breaking, moving or bending things",
+        "Inability at tasks involving knowledge or figuring out problems or puzzles"
+    ],
+    "book_reference": "Numenera Character Options, pg. 28"
+},
+"Tongue-tied": {
+    "MHT": 2,
+    "SPD": 2,
+    "SKILLS": [
+        "Trained in perception",
+        "Trained in initiative (for non-social situations)",
+        "Inability at social interactions",
+        "Inability at verbal communication or relaying information"
+    ],
+    "book_reference": "Numenera Character Options, pg. 28"
+},
+"Vengeful": {
+    "SKILLS": [
+        "Trained in tasks involving intimidation, threats and inflicting pain through torture",
+        "Trained in Speed defense"
+    ],
+    "EQUIP": ["A medium weapon"],
+    "book_reference": "Numenera Character Options, pg. 29"
+},
+"Wealthy": {
+    "ABIL": [
+        "Connected: After spending at least 1 hour in a community with more than a population of 1000, you find a comfortable place to stay for you and any companions as long as you need. You are also provided with food and 50 shins."
+    ],
+    "SKILLS": [
+        "Trained in any task where having money would be an advantage"
+    ],
+    "SHIN": 50,
+    "book_reference": "Numenera Character Options, pg. 30"
+},
+"Weird": {
+    "INT": 2,
+    "NOTE": "Distinctive Physical Quirk: You have a unique physical characteristic which is weird or bizarre",
+    "ABIL": ["Sense for the Weird: At GM discretion weird things related to numenera or it's effects call out to you. You can sense them when within long range and if they are dangerous or not"],
+    "SKILLS": ["Trained in numenera knowledge", "Inability at pleasant social interactions"],
+    "book_reference": "Numenera Character Options, pg. 30"
+},
+"Charming": {
+    "INT": 2,
+    "book_reference": "Numenera Rulebook pg. 47, Players Guide pg. 34",
+    "SHIN": 10,
+    "SKILLS": [
+        "Trained in all tasks involving positive or pleasant social interaction",
+        "Trained when using esoteries or abilities that influence the minds of others",
+        "Inability at studying or retaining facts",
+        "Inability at resisting mental attacks"
+    ],
+    "NOTE": "Contact: you have an important contact in a influential position."
+},
+"Clever": {
+    "INT": 2,
+    "book_reference": "Numenera Rulebook pg. 48, Players Guide pg. 34-35",
+    "SHIN": 10,
+    "SKILLS": [
+        "Trained in all interactions involving lies or trickery",
+        "Trained in defense against mental effects",
+        "Trained in all tasks involving, identifying or assessing danger, lies, quality, importance, function or power.",
+        "Inability at any task involving lore, knowledge or understanding"
+    ]
+},
+"Graceful": {
+    "SPD": 2,
+    "book_reference": "Numenera Rulebook pg. 48, Players Guide pg. 35",
+    "SKILLS": [
+        "Trained in balance and careful movement",
+        "Trained in physical performing arts",
+        "Trained in speed defense"
+    ]
+},
+"Intelligent": {
+    "INT": 2,
+    "book_reference": "Numenera Rulebook pg. 48, Players Guide pg. 35",
+    "SKILLS": [
+        "Trained in an area of knowledge of your choice",
+        "Trained in all tasks involving remembering or memorising things you experience directly (rather than learnt from a book/were told)"
+    ]
+},
+"Learned": {
+    "INT": 2,
+    "book_reference": "Numenera Rulebook pg. 48-49, Players Guide pg. 35",
+    "SKILLS": [
+        "Trained in three areas of knowledge of your choice",
+        "Inability at any task involving charm, persuasion or etiquette"
+    ],
+    "EQUIP": [
+        "Two books on topics of your choice"
+    ]
+},
+"Mystical": {
+    "INT": 2,
+    "book_reference": "Numenera Rulebook pg. 49, Players Guide pg. 36",
+    "SKILLS": [
+        "Trained in identifying or understanding numenera",
+        "Inability in tasks involving charm, persuasion or deception"
+    ],
+    "ABIL": [
+        "Sense 'magic'",
+        "Esotery: Hedge Magic"
+    ],
+    "EQUIP": [
+        "An additional oddity determined by the GM"
+    ]
+},
+"Mechanical": {
+    "INT": 2,
+    "book_reference": "Numenera Rulebook pg. 49, Players Guide pg. 36",
+    "SKILLS": [
+        "Trained in identifying or understanding numenera",
+        "Inability in tasks involving charm, persuasion or deception"
+    ],
+    "ABIL": [
+        "Sense 'magic'",
+        "Esotery: Hedge Magic"
+    ],
+    "EQUIP": [
+        "An additional oddity determined by the GM"
+    ]
+},
+"Rugged": {
+    "book_reference": "Numenera Rulebook pg. 49, Players Guide pg. 36",
+    "SKILLS": [
+        "Trained in all tasks involving swimming, climbing, jumping and running",
+        "Trained in all tasks involving training, riding or placating natural animals",
+        "Trained in all tasks involving identifying or using natural plants",
+        "Inability an any tasks involving charm, persuasion, etiquette or deception"
+    ],
+    "EQUIP": [
+        "An explorerâ€™s pack or the following: additional 50 feet of rope, two days rations and an extra ranged weapon"
+    ]
+},
+"Stealthy": {
+    "SPD": 2,
+    "book_reference": "Numenera Rulebook pg. 50, Players Guide pg. 36-37",
+    "SKILLS": [
+        "Trained in all stealthy tasks",
+        "Trained in all interactions involving lies or trickery",
+        "Trained in all esoteries or abilities involving illusions or trickery",
+        "Inability in movement-related tasks"
+    ]
+},
+"Strong": {
+    "MHT": 4,
+    "book_reference": "Numenera Rulebook pg. 50, Players Guide pg. 37",
+    "SKILLS": [
+        "Trained in breaking inanimate objects",
+        "Trained in jumping"
+    ],
+    "EQUIP": [
+        "An extra medium or heavy weapon"
+    ]
+},
+"Strong-Willed": {
+    "INT": 4,
+    "book_reference": "Numenera Rulebook pg. 50, Players Guide pg. 37",
+    "SKILLS": [
+        "Trained in resisting mental effects",
+        "Trained in tasks requiring incredible focus or concentration",
+        "Inability at figuring out puzzles or problems, memorising thingss or using lore"
+    ]
+},
+"Swift": {
+    "SPD": 4,
+    "book_reference": "Numenera Rulebook pg. 51, Players Guide pg. 37",
+    "SKILLS": [
+        "Trained in initiative actions to determin combat order",
+        "Trained in running",
+        "Inability at balancing"
+    ]
+},
+"Tough": {
+    "ARM": 1,
+    "book_reference": "Numenera Rulebook pg. 51, Players Guide pg. 37",
+    "ABIL": [
+        "Healthy: +1 to recovery rolls",
+    ],
+    "SKILLS": [
+        "Trained in Might defense"
+    ],
+    "EQUIP": [
+        "An extra light weapon"
+    ]
+},
+"Mutant": {
+    "book_reference": "Numenera Rulebook pg. 123",
+    "NOTE": "Further adjust your stat pools according to the specific mutations you choose"
+},
+"Varjellan": {
+    "book_reference": "Numenera Rulebook pg. 121",
+    "ADD": -3,
+    "ABIL": [
+        "Reforging: Take an hour to rearrange stat pools as desired",
+        "Slow to recover: -1 to recovery rolls"
+    ],
+    "SKILLS": [
+        "Trained in numenera",
+        "Trained in visual perception",
+        "Inability at history",
+        "Inability at poetry and oration",
+        "Inability at hearing"
+    ]
+},
+"Lattimor": {
+    "book_reference": "Numenera Rulebook pg. 122",
+    "MHT": 4,
+    "ABIL": [
+        "Change state: once per hour change between Fugue, Bursk or Neem state"
+    ],
+    "SKILLS": [
+        "In Fugue state: Trained in perception",
+        "In Bursk state: Trained in attacks in one weapon (choose at character creation)",
+        "In Bursk state: Trained in breaking things",
+        "In Bursk state: Inability at lore, knowledge or understanding tasks",
+        "In Bursk state: Inability at interacting with others in a pleasant manner",
+        "In Bursk state: Inability at concentration or study - including using esoteries.",
+        "In Neem state: Trained in all interactions with others",
+        "In Neem state: Trained in tasks involving studying, contemplation or mental concentration, including esoteries",
+        "In Neem state: Inability at attack and defense",
+        "In Neem state: Inability at perception"
+    ]
+},
+"Diruk": {
+    "book_reference": "Numenera Character Options pg. 41",
+    "MHTE": 2,
+    "ARM": 3,
+    "ABIL": [
+        "Stone Body: Wearing armour on top of your natural +3 grants no benefits"
+    ],
+    "SKILLS": [
+        "Trained in carrying and smashing things",
+        "Inability at all Speed tasks",
+        "Inability at tasks involving interacting with others in a pleasant manner",
+        "Inability at initiative tasks",
+        "Inability at running tasks",
+        "Inability at swimming tasks"
+    ]
+},
+"Golthiar": {
+    "book_reference": "Numenera Character Options pg. 42",
+    "ARM": 1,
+    "SKILLS": [
+        "Trained in botany and geology",
+        "Trained in learning, decoding and understanding",
+        "Trained in honest social interaction",
+        "Inability at initiative tasks"
+    ],
+    "ABIL": [
+        "Blind: A sudden flash of bright light from any source increases the difficulty of your nenxt action by one step",
+        "Solar: Once per day, can stand in direct sunlight to regain 1 point in all pools",
+        "Deficient: Once every three days must spend a hour buried in drit. Lose 5 mights points for every day this is not done.",
+        "Aimless: If you have no driving goal or purpose, any task not in pursuit of gaining one is one step more difficult."
+    ]
+},
+"Mlox": {
+    "book_reference": "Numenera Character Options pg. 43, Ninth World Bestiary pg. 86",
+    "ADD": -2,
+    "ABIL": [
+        "Open/Close third eye - switch between mloxan form and human guise",
+        "In mloxan form: +2 Speed Pool",
+        "In mloxan form: +1 armour when third eye is open",
+        "In mloxan form: Cypher limit increased by 1",
+        "In mloxan form: Trained in speed defense",
+        "In mloxan form: Trained in auditory and visual perception",
+        "In mloxan form: Trained in all non-combat tasks related to Speed and reflexes",
+        "In mloxan form: Inability at deception, sneaking and camouflage",
+        "In mloxan form: Inability at charm, persuasion and etiquette",
+        "In mloxan form: Inability at tasks requiring knowledge, memory or lore",
+        "In human guise: Trained in deception, sneaking and camouflage",
+        "In human guise: Trained in charm, persuasion and etiquette",
+        "In human guise: Trained in all tasks requiring knowledge, memory or lore",
+        "In human guise: Inability in all non-combat speed and perception tasks"
+    ],
+    "EQUIP": [
+        "An additional cypher (Chosen by GM)"
+    ]
+},
+"Nalurus": {
+    "book_reference": "Numenera Character Options pg. 44, Ninth World Bestiary pg. 90",
+    "MHT": 2,
+    "ABIL": [
+        "Self-healing: Gain +1 to recovery rolls when looking at own face in reflective surface",
+        "Liability: All tasks attempted by anyone within immediate range are one step more difficult (if they are aware of your face)"
+    ],
+    "SKILLS": [
+        "Trained in stealth",
+        "Trained in non-combat tasks involving healing, poison or disease",
+        "Trained in camouflage, deception and intimidation",
+        "Inability at persuasion and charm",
+        "Inability at perception"
+    ],
+    "EQUIP": [
+        "Face mask or hood.",
+        "Unique walking staff usable as a medium weapon"
+    ]
+},
+"Naven": {
+    "book_reference": "Numenera Character Options pg. 31",
+    "INT": 2,
+    "ABIL": [
+        "Always pay half-price for goods and services"
+    ],
+    "SKILLS": [
+        "Trained in all tasks involving exchanges of money",
+        "Trained in studying and retaining knowledge of numbers, patterns and other minute details",
+        "Inability at clicmbing, jumping, running and swimming"
+    ],
+    "EQUIP": [
+        "A small box that looks like a book and only opens when pressed with your right index finger"
+    ],
+    "SHIN": 15
+},
+"Ghanic": {
+    "book_reference": "Numenera Character Options pg. 32",
+    "ABIL": [
+        "Contact: a high ranking friend in th Ghan merchant fleet"
+    ],
+    "SKILLS": [
+        "Trained in swimming, fishing and fighting in water",
+        "Trained in all tasks involving boats or watercraft of any kind",
+        "Trained at navigating by the stars. At night map-reading and navigation tasks are one step easier",
+        "Difficulties of speed tasks on dry land are one step more difficult"
+    ],
+    "EQUIP": [
+        "An egg-shaped item that smells of sea salt. Points to nearest shore when in right hand, nearest fresh water when in left."
+    ]
+},
+"Draolic": {
+    "book_reference": "Numenera Character Options pg. 33",
+    "INT": 4,
+    "SKILLS": [
+        "Trained at all tasks with the potential to bring you eminence. E.g. competitions, feats of strength or combat, speeches, etc",
+        "Inability at perception, identification or assessing danger"
+    ],
+    "EQUIP": [
+        "Carefully folded, very old flag bearing the forbidden tiger symbology of Draolis"
+    ]
+},
+"Thaemic": {
+    "book_reference": "Numenera Character Options pg. 33",
+    "INT": 4,
+    "SKILLS": [
+        "Trained in persuasion, sensing emotions or getting hunches about people around you",
+        "Trained at crafting"
+    ],
+    "ABIL": [
+        "Idealistic: all tasks are one step harder is a party member is impaired."
+    ],
+    "EQUIP": [
+        "A journal in which you record the patterns and connections you have noted throughout your life"
+    ]
+},
+"Malvic": {
+    "book_reference": "Numenera Character Options pg. 34",
+    "MHT": 4,
+    "SKILLS": [
+        "Trained in seeing through lies, deception or disguises",
+        "Trained in might defense",
+        "Inability at deception or persuasion"
+    ],
+    "EQUIP": [
+        "Numenera-based tattoo that says 'Justice and Mercy' in some form. Sometimes glows red."
+    ]
+},
+"Iscobean": {
+    "book_reference": "Numenera Character Options pg. 34",
+    "INT": 2,
+    "SKILLS": [
+        "Trained at all tasks involving connecting with the datasphere or glimmers",
+        "Trained in identifying or understanding numenera",
+        "Inability at discerning reality, telling truth from lies or seeing through disguises"
+    ],
+    "EQUIP": [
+        "A numenera device that you believe helps you under stand your dreams (or alternatively, blocks them)"
+    ],
+    "ABIL": [
+        "Contact: close friend who once worked for Queen Whenith Sarromere"
+    ]
+},
+"Pytharon": {
+    "book_reference": "Numenera Character Options pg. 35",
+    "ABIL": [
+        "Underdog: When Impaired, you function as if Hale. When Debilitated, you function as Impaired"
+    ],
+    "SKILLS": [
+        "Trained in recovery from disease, poison or drugs",
+        "Trained in might defense",
+        "Inability at initiative"
+    ],
+    "EQUIP": [
+        "Additional weapon, probably something small and hidden which has seen you through many battles"
+    ]
+},
+"Milavian": {
+    "book_reference": "Numenera Character Options pg. 36",
+    "ADD": 2,
+    "SKILLS": [
+        "Trained in one skill of your choice",
+        "Trained in resisting mental effects"
+    ],
+    "EQUIP": [
+        "A message in a small metal tubes which stiplates you shouul dbe put to death if forced to live under someone else's rule."
+    ]
+},
+"Ancuani": {
+    "book_reference": "Numenera Character Options pg. 36",
+    "MHT": 4,
+    "SKILLS": [
+        "Trained in using brute force out of combat, e.g. breaking open doors, bending bars",
+        "Trained in social interactions with criminals, barbarians and brutes (inncluding abhummans)",
+        "Inability at concentration, attention to detail or focused movements"
+    ],
+    "EQUIP": [
+        "Saw-toothed claw on a string around your neck"
+    ]
+},
+"Ephrem": {
+    "book_reference": "Numenera Character Options pg. 37",
+    "MHT": 2,
+    "SPD": 2,
+    "ABIL": [
+        "Believer: +2 to recovery rolls once per day"
+    ],
+    "SKILLS": [
+        "Trained in climbing, jumping, balancing",
+        "Inability at geography and geology"
+    ],
+    "EQUIP": [
+        "Small statue of Falgreen to bring you luck and keep you from the Last Great Fall"
+    ]
+},
+"Bazian": {
+    "book_reference": "Numenera Character Options pg. 37",
+    "INT": 2,
+    "ABIL": [
+        "Austere: +1 to recovery rolls taking 1 hour or longer to everyone in your group except you",
+        "Connected: Once per day, get an answer to a single question"
+    ],
+    "SKILLS": [
+        "Trained in creating, repairing and communicating with automatons",
+        "Inability at communicating with humans, abhumans and visitants"
+    ],
+    "EQUIP": [
+        "Spare parts and tools"
+    ]
+},
+"Icebound": {
+    "book_reference": "Numenera Character Options pg. 38",
+    "MHT": 2,
+    "SKILLS": [
+        "Trained in non-combat tasks involving snow or ice, including tracking, ice fishing and geology",
+        "Trained in non-combat tasks involving vision, perception, long-range sight and seeing in dark/smoky areas",
+        "Trained in non-combat tasks involving the use of fire, including creating, extinguishing and controlling it",
+        "Inability at all tasks attempted in hot, dry climates, wastelands or deserts"
+    ],
+    "EQUIP": [
+        "A mutated Drakka companion that alerts you to impending weather changes"
+    ]
+},
+"Wasteland": {
+    "book_reference": "Numenera Character Options pg. 38",
+    "MHT": 2,
+    "ABIL": [
+        "Solitary: At least two members of your party must offer assistance at the same time to decrease a tasks difficulty"
+    ],
+    "SKILLS": [
+        "Trained in non-combat tasks involving knowledge of area flora or fauna, e.g. identifying and using plants, tracking prey, finding water sources",
+        "Trained in initiative tasks"
+    ],
+    "EQUIP": [
+        "Oddity: A small rubber box that always has at least a spoonful of water in it, no matter how much you drink"
+    ]
+}

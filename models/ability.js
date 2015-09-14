@@ -7,6 +7,7 @@ var AbilitySchema   = new Schema({
     description: String,
     book_reference: String,
     note: String,
+    skills: [Schema.Types.ObjectId],
     cost: {
         might: Number,
         speed: Number,

@@ -10,7 +10,8 @@ var app = angular.module('app', [
     'app.shared',
     'app.users',
     'app.character',
-    'app.auth'
+    'app.auth',
+    'app.data'
 ]);
 
 app.config(['$stateProvider', '$httpProvider', '$urlRouterProvider', '$locationProvider', '$mdThemingProvider',
