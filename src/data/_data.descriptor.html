@@ -1,11 +1,77 @@
 <form name="data-descriptor" ng-submit="saveDescriptor()">
     <label for="name">name</label>
-    <input 
-           type="text" 
-           name="name" 
-           ng-model="character.name"
-           required>
-    <div ng-messages="characterForm.name.$error">
-        <p ng-message="required">A name is required.</p>
-    </div>
+    <input type="text" name="name" ng-model="skill.name" required>
+
+    <label for="description">description</label>
+    <input type="text" name="description" ng-model="skill.description" required>
+
+    <label for="book_reference">book_reference</label>
+    <input type="text" name="book_reference" ng-model="skill.book_reference" required>
+
+    <label for="shin">shin</label>
+    <input type="text" name="shin" ng-model="skill.shin" required>
+    
+    ITEMS
+    
+    SKILLS
+        AUTOMATIC
+        OPTIONAL
+    
+    ABILITIES
+        AUTOMATIC
+        OPTIONAL
+
+    MODIFIERS
+    <label for="modifiers-armor">armor</label>
+    <input type="text" name="modifiers-armor" ng-model="skill.modifiers.armor" required>
+    POOLS
+    <label for="modifiers-pools-might">might</label>
+    <input type="text" name="modifiers-pools-might" ng-model="skill.modifiers.pools.might" required>
+    <label for="modifiers-pools-speed">speed</label>
+    <input type="text" name="modifiers-pools-speed" ng-model="skill.modifiers.pools.speed" required>
+    <label for="modifiers-pools-intellect">intellect</label>
+    <input type="text" name="modifiers-pools-intellect" ng-model="skill.modifiers.pools.intellect" required>
+    <label for="modifiers-pools-free">free</label>
+    <input type="text" name="modifiers-pools-free" ng-model="skill.modifiers.pools.free" required>
+    EDGE
+    <label for="modifiers-edge-might">might</label>
+    <input type="text" name="modifiers-edge-might" ng-model="skill.modifiers.edge.might" required>
+    <label for="modifiers-edge-speed">speed</label>
+    <input type="text" name="modifiers-edge-speed" ng-model="skill.modifiers.edge.speed" required>
+    <label for="modifiers-edge-intellect">intellect</label>
+    <input type="text" name="modifiers-edge-intellect" ng-model="skill.modifiers.edge.intellect" required>
+    <label for="modifiers-edge-free">free</label>
+    <input type="text" name="modifiers-edge-free" ng-model="skill.modifiers.edge.free" required>
+
+    <button type="submit">save</button>
 </form>
+
+name: '',
+description: '',
+book_reference: '',
+items: [],
+shin: 0,
+starting_link: [],
+abilities: {
+automatic: [],
+optional: []
+},
+skills: {
+automatic: [],
+optional: []
+},
+modifiers: {
+armor: 0,
+pools: {
+might: 0,
+speed: 0,
+intellect: 0,
+free: 0,
+},
+edge: {
+might: 0,
+speed: 0,
+intellect: 0,
+free: 0
+}
+}
